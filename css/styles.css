@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color:indigo;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color:indigo;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+.event-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.event-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.event-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.event-card h3 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+
+.event-card p {
+    margin: 5px 0;
+}
+
+.event-card .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:darkorchid;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.event-card .btn:hover {
+    background-color:darkslateblue;
+}
+
+.form-section {
+    width: 40%;
+    margin: 50px auto;
+    padding: 20px;
+    
+    background-color:whitesmoke;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.form-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-section input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-section button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color:darkorchid;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-section button:hover {
+    background-color:darkslateblue;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color:indigo;
+    color: white;
+}
